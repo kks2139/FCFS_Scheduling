@@ -1,0 +1,82 @@
+scheduling : FCFS
+==============================================
+<time 0> --- system is idle ---
+<time 1> [new arrival] process 8
+<time 1> process 8 is running
+<time 2> [new arrival] process 5
+<time 2> process 8 is running
+<time 3> [new arrival] process 2
+<time 3> process 8 is running
+<time 4> [new arrival] process 4
+<time 4> process 8 is running
+<time 5> [new arrival] process 6
+<time 5> process 8 is running
+<time 6> process 8 is running
+<time 7> process 8 is finished
+---------------------------(context - switch)
+<time 7> [new arrival] process 3
+<time 7> process 5 is running
+<time 8> process 5 is running
+<time 9> [new arrival] process 1
+<time 9> process 5 is running
+<time 10> process 5 is running
+<time 11> process 5 is running
+<time 12> process 5 is running
+<time 13> process 5 is running
+<time 14> process 5 is running
+<time 15> process 5 is finished
+---------------------------(context - switch)
+<time 15> process 2 is running
+<time 16> [new arrival] process 9
+<time 16> process 2 is running
+<time 17> process 2 is running
+<time 18> process 2 is running
+<time 19> process 2 is finished
+---------------------------(context - switch)
+<time 19> process 4 is running
+<time 20> process 4 is running
+<time 21> process 4 is running
+<time 22> process 4 is running
+<time 23> process 4 is running
+<time 24> process 4 is running
+<time 25> process 4 is finished
+---------------------------(context - switch)
+<time 25> process 6 is running
+<time 26> [new arrival] process 7
+<time 26> process 6 is running
+<time 27> process 6 is running
+<time 28> process 6 is finished
+---------------------------(context - switch)
+<time 28> process 3 is running
+<time 29> process 3 is running
+<time 30> process 3 is finished
+---------------------------(context - switch)
+<time 30> [new arrival] process 10
+<time 30> process 1 is running
+<time 31> process 1 is running
+<time 32> process 1 is running
+<time 33> process 1 is running
+<time 34> process 1 is running
+<time 35> process 1 is finished
+---------------------------(context - switch)
+<time 35> process 9 is running
+<time 36> process 9 is running
+<time 37> process 9 is running
+<time 38> process 9 is running
+<time 39> process 9 is finished
+---------------------------(context - switch)
+<time 39> process 7 is running
+<time 40> process 7 is running
+<time 41> process 7 is finished
+---------------------------(context - switch)
+<time 41> process 10 is running
+<time 42> process 10 is running
+<time 43> process 10 is running
+<time 44> process 10 is running
+<time 45> process 10 is running
+<time 46> process 10 is running
+<time 47> All processes are finished!
+Average waiting time = 13
+Average response time = 13
+Average turnaround time = 16
+CPU use = 97 
